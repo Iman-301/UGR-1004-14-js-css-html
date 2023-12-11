@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Work</title>
+    
+    <link rel="stylesheet" href="css/grid.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -29,30 +30,28 @@
         </nav>
     </header>
     <main>
+        
         <section class="workpage" id="Work">
-            <h2>Welcome to my work</h2>
-            <p>In my current role as a Senior Software Engineer at XYZ Tech Solutions, I play a vital role in developing innovative software solutions for our clients in the technology industry. I am responsible for leading the development team, overseeing project timelines, and ensuring the successful delivery of high-quality software products. </p>
-            
-            
-            
-            <section class="project">
-                <section>
-                    <h2>Projects</h2>
-            <article>
-                <h3>Cardio Care Website</h3>
-                <p>Description: Developed a responsive patient care system with html, css and javascript. Implemented features like product catalog, cart functionality, and user authentication.</p>
+            <h2 class="workpage__heading">Welcome to my work</h2>
+            <p class="workpage__description">In my current role as a Senior Software Engineer at XYZ Tech Solutions, I play a vital role in developing innovative software solutions for our clients in the technology industry. I am responsible for leading the development team, overseeing project timelines, and ensuring the successful delivery of high-quality software products.</p>
+          
+            <section class="workpage__project project">
+              <section>
+                <h2 class="project__heading">Projects</h2>
+                <article class="project__article">
+                  <h3 class="project__title">Cardio Care Website</h3>
+                  <p class="project__description">Description: Developed a responsive patient care system with HTML, CSS, and JavaScript. Implemented features like a product catalog, cart functionality, and user authentication.</p>
+                </article>
+                <article class="project__article">
+                  <h3 class="project__title">E-commerce Website</h3>
+                  <p class="project__description">Description: Developed a responsive e-commerce website using React and integrated it with a payment gateway. Implemented features like a product catalog, cart functionality, and user authentication.</p>
+                </article>
+              </section>
 
-            </article>
-            <article>
-                <h3>E-commerce Website</h3>
-                <p>Description: Developed a responsive e-commerce website using React and integrated with a payment gateway. Implemented features like product catalog, cart functionality, and user authentication.</p>
-            </article>
-           </section>
-            
-                <aside>
-                    <img src="img/download.jpg" alt="my mentor" width="200" height="200">
-                    <p>My mentor John is a passionate web developer specializing in front-end technologies. He loves creating engaging user experiences that combine form and function.</p>
-                </aside>
+              <aside class="project__aside">
+                <img src="img/download.jpg" alt="my mentor" width="200" height="200" class="project__image">
+                <p class="project__mentor">My mentor John is a passionate web developer specializing in front-end technologies. He loves creating engaging user experiences that combine form and function.</p>
+              </aside>
                 
             </section>
 
@@ -100,12 +99,12 @@
                 <li>coding</li>
             </ul>
         </section>
-            <button onclick="location.href='mailto:imanibrahim301@gmail.com'">hire me</button>
-            <p ><q class="increase">Let's collaborate on your next project! Contact me to discuss how I can help bring your ideas to life </q></p>
-           </section>
+        <button class="skill__button" onclick="location.href='mailto:imanibrahim301@gmail.com'">hire me</button>
+        <p class="skill__quote"><q class="skill__quote-text">Let's collaborate on your next project! Contact me to discuss how I can help bring your ideas to life</q></p>
+        </section>
        </section>
 
-<a href="resourse.html">Go to resource page</a>
+
 
 
 
