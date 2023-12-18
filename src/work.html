@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work</title>
+    <title>Portfolio</title>
     
     <link rel="stylesheet" href="css/grid.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
+    <script defer src="javasc/add.js"></script>
 </head>
 <body>
     <header>
@@ -38,14 +39,17 @@
             <section class="workpage__project project">
               <section>
                 <h2 class="project__heading">Projects</h2>
-                <article class="project__article">
-                  <h3 class="project__title">Cardio Care Website</h3>
-                  <p class="project__description">Description: Developed a responsive patient care system with HTML, CSS, and JavaScript. Implemented features like a product catalog, cart functionality, and user authentication.</p>
+
+                <article class="project__article" >
+                  <h3 class="project__title" onclick="description('project1')">Cardio Care Website</h3>
+                  <p class="project__description " id="project1">Description: Developed a responsive patient care system with HTML, CSS, and JavaScript. Implemented features like a product catalog, cart functionality, and user authentication.</p>
                 </article>
-                <article class="project__article">
-                  <h3 class="project__title">E-commerce Website</h3>
-                  <p class="project__description">Description: Developed a responsive e-commerce website using React and integrated it with a payment gateway. Implemented features like a product catalog, cart functionality, and user authentication.</p>
+                <article class="project__article" >
+                  <h3 class="project__title" onclick="description('project2')">E-commerce Website</h3>
+                  <p class="project__description" id="project2">Description: Developed a responsive e-commerce website using React and integrated it with a payment gateway. Implemented features like a product catalog, cart functionality, and user authentication.</p>
                 </article>
+
+
               </section>
 
               <aside class="project__aside">
@@ -59,8 +63,8 @@
 
 
            <section class="education">
-            <h2>Education</h2>
-            <table>
+            <h2 class="education__head">Education</h2>
+            <table class="education__table">
                 <tr>
                     <th>Certification</th>
                     <th>Institution</th>
@@ -82,9 +86,9 @@
 
 
            <section class="skill">
-           <section class="skillonly">
-            <ul>
-                <h4>Skills</h4>
+           <section class="skillonly skill__skillonly">
+            <ul skillonly__list>
+                <h4 skillonly__heading>Skills</h4>
                 <li>photography
                     <ul>
                     <li>art</li>

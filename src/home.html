@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/grid.css">
 
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
+    <script defer src="javasc/add.js"></script>
 </head>
 <body>
+   
     <header>
         <section class="header-title">
         <h1 class="logo">Iman</h1>
@@ -29,18 +31,38 @@
             </ul>
         </nav>
     </header>
-    <main>
+
+<main>
+
+
         <section class="homepage" id="home">
+
+    <div class="slider-container">
+        <div class="slide" style="background-image: url('img/bubble.jpg')"></div>
+        <div class="slide" style="background-image: url('img/final4.jpg')"></div>
+        <div class="slide" style="background-image: url('img/newww1.jpg')"></div>
+        <div class="slide" style="background-image: url('img/newww2.jpg')"></div>
+        <div class="slide" style="background-image: url('img/new6.jpg')"></div>
+        
+        <button class="arrow left-arrow" id="left">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="arrow right-arrow" id="right">
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+          
             <h1 homepage__title>My creative Space</h1>
             <p homepage__description>Unlocking the power of design</p>
 
 
             <q homepage__quote>You can always transform ideas into compelling visual exprience </q>
-            <button class="homepage__button homepage__button--primary"><a href="#about">About me</a>
+            <button class="homepage__button homepage__button--primary"><a href="about.html">About me</a>
             </button>
          </section>
          
-    </main>
+        </main>
+
          <footer>
             <h1 class="logo">Iman</h1>
             <p>&copy; 2023 Iman. All right reserved </p>
@@ -58,5 +80,7 @@
     
         </footer>
         
+        
     </body>
     </html>
+

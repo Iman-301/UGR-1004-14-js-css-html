@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/grid.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
+    
+    <script defer src="javasc/addlast.js"></script>
 </head>
 <body>
     <header>
@@ -31,7 +33,9 @@
 <main>
     <section class="contactpage" id="Contact">
     
-        <h1>Contact me</h1>
+        <h1 class="contactpage__title">Contact me</h1>
+
+
         <section class="first-in-contact">
         <p>Please fill out the form below to get in touch with me:</p>
             
@@ -40,13 +44,13 @@
         <div class="inputs">
             <section class="enter-input">
             <label for="name">Name: 
-                <input type="text" placeholder="your name" id="name">
+                <input type="text" placeholder="your name" id="name" autocomplete="off">
             </label>
             <label for="emial">Emai: 
-                <input type="email" placeholder="your email" id="email">
+                <input type="email" placeholder="your email" id="email" autocomplete="off">
             </label>
             <label for="subject"> Subject: 
-                <input type="text" placeholder="enter subject" id="subject">
+                <input type="text" placeholder="enter subject" id="subject" autocomplete="off">
             </label>
         </section>
     
@@ -58,6 +62,9 @@
         </section>
         
         </div>
+        <button class="submit-btn" id="submit-btn">Submit</button>
+        <p class="format-example-name">eg: Iman Ibrahim or Iman</p>
+        <p class="format-example-email">eg: example@example.com</p>
         </section>
         
             
@@ -98,13 +105,13 @@
                   </a>
             </section>
             
-              <p>Feel free to browse through my portfolio and explore the projects I've worked on. If you have any inquiries or would like to collaborate, please don't hesitate to reach out to me using the contact information provided above.</p>
+              <p class="icons2__text">Feel free to browse through my portfolio and explore the projects I've worked on. If you have any inquiries or would like to collaborate, please don't hesitate to reach out to me using the contact information provided above.</p>
     
-              <p>Thank you for visiting!</p>
+              <p class="icons2__text">Thank you for visiting!</p>
             
         </div>
         <div class="contact-section">
-            <h2>Personal Contact</h2>
+            <h2 class="contact-section__heading">Personal Contact</h2>
             <p><span class="nowrap">📲 555-555-5555</span></p>
             <p><span class="nowrap">📩 imanibrahim301@gmail.com</span></p>
             <p> <span class="nowrap">🐦 <a href="https://twitter.com/imano-301">twitter.com/imano-301</a></span></p>
